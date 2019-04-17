@@ -115,7 +115,7 @@ function gotResults(err, result) {
         currentWord = result.label;
           if (currentWord == 'Slouching') {
             // Say the current word 
-            myVoice.speak("Sit up straight!");
+            myVoice.speak("Check yourself before you wreck yourself!");
           } else if (currentWord == 'Goodposture') {
             myVoice.speak("Your posture is nice.");
           } else if (currentWord == 'Other') {
