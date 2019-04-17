@@ -72,7 +72,7 @@ function createButtons() {
   // When the A button is pressed, add the current frame to class "Hello"
   buttonA = select('#addClass1');
   buttonA.mousePressed(function() {
-    addExample('Sloughing');
+    addExample('Slouching');
   });
 
   // When the B button is pressed, add the current frame to class "goodbye"
@@ -113,7 +113,7 @@ function gotResults(err, result) {
       // If the confidence is higher then 0.9
       if (result.label !== currentWord && confideces[result.label] > 0.9) {
         currentWord = result.label;
-          if (currentWord == 'Sloughing') {
+          if (currentWord == 'Slouching') {
             // Say the current word 
             myVoice.speak("Sit up straight!");
           } else if (currentWord == 'Goodposture') {
@@ -132,7 +132,7 @@ function gotResults(err, result) {
 function updateExampleCounts() {
   const counts = knnClassifier.getClassExampleCountByLabel();
 
-  select('#example1').html(counts['Sloughing'] || 0);
+  select('#example1').html(counts['Slouching'] || 0);
   select('#example2').html(counts['Goodposture'] || 0);
   select('#example3').html(counts['Other'] || 0);
 }
