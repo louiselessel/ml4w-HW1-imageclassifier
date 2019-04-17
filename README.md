@@ -6,4 +6,5 @@ Live version:
 Week 1 direct link:
 [https://louiselessel.github.io/ml4w-Homework/HW%20W1%20image%20classifier/](https://louiselessel.github.io/ml4w-Homework/HW%20W1%20image%20classifier/)
 
-[https://louiselessel.github.io/ml4w-Homework/HW%20W1%20image%20classifier/](https://louiselessel.github.io/ml4w-Homework/HW%20W1%20image%20classifier/)
+Week 2 direct link:
+[https://louiselessel.github.io/ml4w-Homework/HW%20W2%20KNNClassification_posture/](https://louiselessel.github.io/ml4w-Homework/HW%20W2%20KNNClassification_posture/)
